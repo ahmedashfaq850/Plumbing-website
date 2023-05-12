@@ -2,6 +2,7 @@ import Image from "next/image";
 import ImageText from "@/components/ImageText";
 import CTA from "@/components/CTA";
 import Heading from "@/components/Heading";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         imageDes="/van1.svg"
         order="order-2"
       />
+      <Services />
     </main>
   );
 }
