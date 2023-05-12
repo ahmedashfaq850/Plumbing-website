@@ -21,7 +21,7 @@ export default function Home() {
         CtaText="Not sure which trade you need? Just ask us!"
         buttonText="Request Callback"
       />
-      <Heading />
+      <Heading afterOurText='LOCATIONS' />
       <ImageText
         title="We have you covered!"
         description="Our team are based in Harpenden and St Albans covering all the surrounding areas including Redbourn,Wheathampstead, Kimpton, Sandridge, Markyate, Slip End, Caddington, and more."
