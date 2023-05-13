@@ -18,11 +18,12 @@ export default function Home() {
         order="order-none"
       />
 
+      <Services />
       <CTA
         CtaText="Not sure which trade you need? Just ask us!"
         buttonText="Request Callback"
       />
-      <Heading afterOurText='LOCATIONS' />
+      <Heading afterOurText="LOCATIONS" />
       <ImageText
         title="We have you covered!"
         description="Our team are based in Harpenden and St Albans covering all the surrounding areas including Redbourn,Wheathampstead, Kimpton, Sandridge, Markyate, Slip End, Caddington, and more."
@@ -30,7 +31,6 @@ export default function Home() {
         imageDes="/van1.svg"
         order="order-2"
       />
-      <Services />
     </main>
   );
 }
