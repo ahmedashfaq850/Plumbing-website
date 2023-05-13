@@ -4,7 +4,7 @@ import Image from 'next/image'
 const ImageText = ({title,description,buttonText,imageDes,order}) => {
     // console.log(order)
   return (
-    <div className=" w-full mdu:h-[300px] mb-20 bg-black flex mdu:flex-row flex-col">
+    <div className="drop-shadow-xl w-full mdu:h-[300px] mb-20 bg-black flex mdu:flex-row flex-col">
       {/* Text */}
       <div
         className={`bg-[#1B4845] w-full max-[861px]:order-2 mdu:w-[55%] ${order} flex justify-center items-center`}
