@@ -1,5 +1,7 @@
+import Tobar from '@/components/Tobar'
 import './globals.css'
 import { Outfit } from 'next/font/google'
+import Header from '@/components/Header'
 
 const outfit = Outfit({ subsets: ['latin'] })
 
@@ -11,7 +13,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={outfit.className}>{children}</body>
+      <body className={outfit.className}>
+        <Tobar/>
+        <Header  />
+        {children}
+      
+      </body>
     </html>
   )
 }
