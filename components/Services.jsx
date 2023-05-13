@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Heading from './Heading'
 const services = [
   {
     title: 'Plumbing',
@@ -35,8 +36,7 @@ const services = [
 const Services = () => {
   return (
     <div>
-        <h2 className="text-black font-extrabold text-center text-2xl sm:text-4xl">OUR
-        <span className='text-[#73D043]'> SERVICES</span></h2>
+        <Heading afterOurText='SERVICES'/>
         <div className='flex flex-wrap justify-center mt-10'>
             {services.map((service, index) => (
                 <div key={index} className='flex mr-2 sm:mr-8 mb-7 sm:mb-10   flex-col items-center justify-center sm:w-[220px]  md:w-[300px] md:h-[400px] bg-white rounded-lg shadow-lg  '>
