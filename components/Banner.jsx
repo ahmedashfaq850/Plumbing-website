@@ -18,7 +18,7 @@ const Banner = () => {
           priority
         />
       </div>
-        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="absolute inset-0 bg-black opacity-60"></div>
       </div>
       
       {/* Text & Button updated*/}
