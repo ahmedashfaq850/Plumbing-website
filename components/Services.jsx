@@ -18,7 +18,7 @@ const services = [
   },
   {
     title: 'Bathrooms',
-    description: 'Our Bathrooms solutions can help with leaking taps, new  toilets, showers, and more.',
+    description: 'Our Bathrooms solutions can help with leaking taps, showers, and more.',
     imageSrc: '/images/bathroom.svg',
   },
   {
