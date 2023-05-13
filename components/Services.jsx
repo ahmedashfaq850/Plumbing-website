@@ -35,16 +35,16 @@ const services = [
 ]
 const Services = () => {
   return (
-    <div>
+    <div>  
         <Heading afterOurText='SERVICES'/>
-        <div className='flex flex-wrap justify-center mt-10'>
+        <div className='flex gap-10 mb-7 sm:mb-10 flex-wrap justify-center mt-10'>
             {services.map((service, index) => (
-                <div key={index} className='flex mr-2 sm:mr-8 mb-7 sm:mb-10   flex-col items-center justify-center sm:w-[220px]  md:w-[300px] md:h-[400px] bg-white rounded-lg shadow-lg  '>
+                <div key={index} className='flex flex-col items-center justify-center sm:w-[220px]  md:w-[300px] md:h-[400px] bg-white rounded-lg shadow-lg  '>
                     
                         <div className='w-12 h-12 md:w-[100px] md:h-[100px]'>
-                            <Image src={service.imageSrc} alt={service.title} width={100} height={100} />
+                            <Image className='mt-4 md:mt-0' src={service.imageSrc} alt={service.title} width={100} height={100} />
                         </div>
-                        <h3 className='mt-5 md:mt-7 mb-2 text-2xl md:text-3xl text-[#73D043] font-semibold  '>{service.title}</h3>
+                        <h3 className='mt-7  mb-2 text-2xl md:text-3xl text-[#73D043] font-semibold  '>{service.title}</h3>
                         <p className='text-center p-3 md:p-4 md:text-sm text-xs'>{service.description}</p>
                         <Link href='/services' className='mt-4 text-center text-[#73D043] flex items-center justify-end mb-3 md:mb-0  hover:text-green-700' >
                             Learn More 
