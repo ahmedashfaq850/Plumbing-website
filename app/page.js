@@ -3,10 +3,12 @@ import ImageText from "@/components/ImageText";
 import CTA from "@/components/CTA";
 import Heading from "@/components/Heading";
 import Services from "@/components/Services";
+import Banner from "@/components/Banner";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-12 mdu:p-24">
+    <main > {/* className="flex min-h-screen flex-col items-center justify-between p-12 mdu:p-24" */}
+      <Banner/>
       <ImageText
         title="Home maintenance, sorted!"
         description="Our expert team can help with plumbing, electrics,
