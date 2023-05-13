@@ -37,9 +37,9 @@ const Services = () => {
   return (
     <div>  
         <Heading afterOurText='SERVICES'/>
-        <div className='flex gap-10 mb-7 sm:mb-10 flex-wrap justify-center mt-10'>
+        <div className='flex  gap-10 mb-7 sm:mb-10 flex-wrap justify-center mt-10'>
             {services.map((service, index) => (
-                <div key={index} className='flex flex-col items-center justify-center sm:w-[220px]  md:w-[300px] md:h-[400px] bg-white rounded-lg shadow-lg  '>
+                <div key={index} className='flex flex-col items-center justify-center sm:w-[220px]  md:w-[300px] md:h-[400px] 2xl:w-[400px]  bg-white rounded-lg shadow-lg  '>
                     
                         <div className='w-12 h-12 md:w-[100px] md:h-[100px]'>
                             <Image className='mt-4 md:mt-0' src={service.imageSrc} alt={service.title} width={100} height={100} />

@@ -35,20 +35,18 @@ const Footer = () => {
                                     <li>Slip End</li>
                                 </ul>
                                 <ul>
-                                    <li>Harpenden</li>
-                                    <li>St Albans </li>
-                                    <li>Redbourn</li>
-                                    <li>Kimpton</li>
-                                    <li>Wheathampstead</li>
+                                    <li>Caddington</li>
+                                    <li>Hemel</li>
+                                    <li>Kensworth</li>
+                                    <li>Luton</li>
+                                    <li>Hatfield </li>
                                     <li>Sandridge</li>
-                                    <li>Markyate</li>
-                                    <li>Slip End</li>
                                 </ul>
                             </div>
                         </div>
                         {/* right side */}
                         <div>
-                            <h1 className='text-[#2AB237] font-bold text-2xl mb-[30px]'>Our Services</h1> 
+                            <h1 className='text-[#2AB237] font-bold text-2xl mb-[30px]'>Get in Touch</h1> 
                             <div className='flex flex-col justify-start items-start gap-6'>
                                 <div className='flex items-center gap-2'>
                                     <Image src="/images/whatsapp.svg" alt="icon" width="23" height="23"/>

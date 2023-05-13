@@ -22,15 +22,15 @@ const Banner = () => {
       </div>
       
       {/* Text & Button updated*/}
-      <div className="absolute top-4 left-4 sm:top-[200px] sm:left-[80px]  md:top-[200px] md:left-[150px] gap-4 flex flex-col items-start ">
+      <div className="absolute top-6 left-4 md:top-[200px] md:left-[80px] sm:top-[200px] sm:left-[80px]  lg:top-[180px] lg:left-[150px] gap-4 flex flex-col items-start ">
         <h1 className="font-bold text-white text-[18px] sm:text-[35px] md:text-[50px]">Celebrating <span className="text-[#73D043]">20 years</span> serving <br /> Harpenden & St Albans! </h1>
-        <p className="text-white text-[11px] sm:text-[18px] md:text-[25px]">
+        <p className="text-white text-[10px] sm:text-[18px] md:text-[25px]">
         Homesmith are the home maintenance experts providing <br/>
         plumbing, heating, electrics, and handyman services to <br /> properties across Harpenden, St Albans, and the surrounding areas.
         
         </p>
         <Link href="#contact">
-        <button className="bg-[#73D043] text-white  shadow-xl rounded-lg py-2 md:py-4 px-3 sm:px-5 font-bold">
+        <button className="bg-[#73D043] text-xs sm:text-xl text-white  shadow-xl rounded-lg py-2 md:py-4 px-3 sm:px-5 font-bold">
         EXPLORE OUR SERVICES
         </button>
         </Link>

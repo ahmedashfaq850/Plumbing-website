@@ -9,6 +9,8 @@ export default function Home() {
   return (
     <main > {/* className="flex min-h-screen flex-col items-center justify-between p-12 mdu:p-24" */}
       <Banner/>
+      <div  className="flex min-h-screen flex-col items-center justify-between p-12 mdu:p-24">
+
       <ImageText
         title="Home maintenance, sorted!"
         description="Our expert team can help with plumbing, electrics,
@@ -33,6 +35,7 @@ export default function Home() {
         imageDes="/van1.svg"
         order="order-2"
       />
+      </div>
     </main>
   );
 }
