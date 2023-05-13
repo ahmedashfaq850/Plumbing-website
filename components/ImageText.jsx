@@ -10,7 +10,7 @@ const ImageText = ({title,description,buttonText,imageDes,order}) => {
         className={`bg-[#1B4845] w-full max-[861px]:order-2 mdu:w-[55%] ${order} flex justify-center items-center`}
       >
         <div className="w-full p-5 sm:p-10 gap-4 mdu:gap-4 flex flex-col justify-start">
-          <h2 className="text-white font-extrabold  sm:text-xl">{title}</h2>
+          <h2 className="text-white font-extrabold drop-shadow-xl  sm:text-xl">{title}</h2>
           <p className="text-white text-sm">{description}</p>
           <button className="bg-[#73D043] shadow-md text-white w-fit py-1 px-2.5 rounded-lg font-semibold">
             {buttonText}
