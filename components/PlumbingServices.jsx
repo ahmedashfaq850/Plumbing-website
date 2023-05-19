@@ -20,17 +20,17 @@ const services = [
 ]
 const PlumbingServices = () => {
   return (
-    <div>  
+    <div className='p-12'>  
         <Heading afterOurText='PLUMBING SERVICES'/>
-        <div className='flex  gap-10 mb-7 sm:mb-10 flex-wrap justify-center mt-10'>
+        <div className='flex gap-10 mb-7 sm:mb-10 flex-wrap justify-center mt-10'>
             {services.map((service, index) => (
-                <div key={index} className='flex p-3 md:p-0 flex-col max-w-[300px]  items-center justify-center sm:w-[320px] sm:p-3   md:w-[300px] md:h-[400px] 2xl:w-[400px]  bg-[#73D043] rounded-lg shadow-lg  '>
+                <div key={index} className='flex p-3 md:p-0 flex-col max-w-[300px]  items-center justify-center sm:w-[320px] sm:p-3   md:min-w-[320px] md:h-[400px] 2xl:min-w-[400px]  bg-[#73D043] rounded-lg shadow-lg  '>
                     
                         <div className='w-12 h-12 md:w-[110px] md:h-[100px]'>
                             <Image className='mt-4 md:mt-0' src={service.imageSrc} alt={service.title} width={100} height={100} />
                         </div>
                         <h3 className='mt-7   mb-2 text-lg sm:text-2xl  font-semibold drop-shadow-lg    '>{service.title}</h3>
-                        <p className='text-center p-3 md:p-4 text-white md:text-base   text-xs'>{service.description}</p>
+                        <p className='text-center p-3 md:p-4 text-white md:text-base     text-xs'>{service.description}</p>
                     
                 </div>
             ))}
