@@ -47,20 +47,20 @@ const Plumbing = () => {
 
             <PlumbingServices />
             {/* Heading and Paragragh */}
-            <div className='px-[20px] sm:px-[40px] md:px-[90px] flex flex-col gap-5 mb-20 '>
-              <h3 className='text-3xl font-semibold'>Plumbing services from Homesmith</h3>
-              <p className='text-xl '>The most common plumbing jobs we receive include:</p>
+            <div className='px-[20px] sm:px-[30px] md:px-[70px] lg:px-[90px] flex flex-col gap-5 mb-10 '>
+              <h3 className='text-xl sm:text-3xl font-semibold'>Plumbing services from Homesmith</h3>
+              <p className='text-sm     sm:text-xl '>The most common plumbing jobs we receive include:</p>
+            </div>
 
               {/* Plumbing jobs */}
-              <div className='p-12'>  
+              <div className='p-4 md:p-10 lg:p-20  2xl:p-24'>  
        
-                <div className='flex gap-10 mb-7 sm:mb-10 flex-wrap justify-center  '>
+                <div className='flex gap-5 sm:gap-10 mb-7 sm:mb-10 flex-wrap  justify-center  '>
                   {jobs.map((job, index) => (
-                  <div key={index} className='flex p-3  md:p-0 flex-col max-w-[180px] max-h-[180px]  items-center justify-center sm:min-w-[200px] sm:p-3   md:min-w-[300px] md:min-h-[200px] 2xl:min-w-[400px]  bg-white rounded-lg  shadow-lg  '>
+                  <div key={index} className='flex p-1   md:p-2 flex-col max-w-[150px] max-h-[150px]  items-center justify-center sm:min-w-[180px] sm:p-3   md:min-w-[300px] md:min-h-[200px] 2xl:min-w-[400px]  bg-white rounded-lg  shadow-lg  '>
                     <div className='w-12 h-12 md:w-[90px] md:h-[100px]'>
                       <Image className='mt-4 md:mt-2' src={job.imageSrc} alt={job.title} width={100} height={100} />
                     </div>
-                    {/* <h3 className='mt-7   mb-2 text-lg sm:text-2xl  font-semibold drop-shadow-lg'>{service.title}</h3> */}
                     <p className='text-center mt-5 sm:mt-0 p-3 md:p-4 text-[#73D043] md:text-base 2xl:text-xl text-xs'>{job.description}</p>
                     
                   </div>
@@ -68,7 +68,7 @@ const Plumbing = () => {
                 </div>
               </div>
             </div>
-        </div>
+        
     </div>
   )
 }
