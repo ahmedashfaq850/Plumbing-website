@@ -46,7 +46,7 @@ const Services = () => {
                         </div>
                         <h3 className='mt-7  mb-2 text-2xl md:text-3xl text-[#73D043] font-semibold  '>{service.title}</h3>
                         <p className='text-center p-3 md:p-4 md:text-sm text-xs'>{service.description}</p>
-                        <Link href='/services' className='mt-4 text-center text-[#73D043] flex items-center justify-end mb-3 md:mb-0  hover:text-green-700' >
+                        <Link href={`/${service.title.toLowerCase()}`} className='mt-4 text-center text-[#73D043] flex items-center justify-end mb-3 md:mb-0  hover:text-green-700' >
                             Learn More 
                             <span>
                                 <Image className='ml-1 mt-1' src={'/images/arrow.svg'} alt='arrow' width={13} height={20} />
