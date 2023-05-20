@@ -49,28 +49,7 @@ const Plumbing = () => {
   return (
     <div className="p-12 mdu:p-24">
       <div>
-        <div className='mb-20 mdu:mb-0'>
-          <ImageText
-            title="Local plumbers you can trust"
-            description="We have been offering bathroom and plumbing 
-services for over 15 years in Harpenden, St Albans, 
-and the surrounding areas. Our team are 
-professional, reliable, offering a service that is 
-second to none.
-"
-            buttonText="Call Us"
-            imageDes="/plumbingsmith.svg"
-            order="order-none"
-            marginBottom="0"
-          />
-        </div>
-        <ImageText
-          title="Book  a Homesmith Plumber"
-          description="We’re here to help with leaking taps, shower repairs, toilet repairs, as well as installing new sinks, taps, and appliances. As well as providing quotes for planned work, we offer fully bathroom refurbs."
-          buttonText="Book a Plumner"
-          imageDes="/van1.svg"
-          order="order-2"
-        />
+        
 
         <PlumbingServices />
         <Team />
