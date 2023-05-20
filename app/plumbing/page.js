@@ -1,49 +1,49 @@
-import CTA from '@/components/CTA'
-import Community from '@/components/Community'
-import Heading from '@/components/Heading'
-import ImageText from '@/components/ImageText'
-import PlumbingServices from '@/components/PlumbingServices'
-import Team from '@/components/Team'
-import Image from 'next/image'
+import CTA from "@/components/CTA";
+import Community from "@/components/Community";
+import Heading from "@/components/Heading";
+import ImageText from "@/components/ImageText";
+import PlumbingServices from "@/components/PlumbingServices";
+import Team from "@/components/Team";
+import Image from "next/image";
 
 const jobs = [
   {
-    description: 'Fitting taps, sinks, toiletscand showers',
-    imageSrc: '/images/plumbing/One.svg',
+    description: "Fitting taps, sinks, toiletscand showers",
+    imageSrc: "/images/plumbing/One.svg",
   },
   {
-    description: 'Installing new pumps and replacing broken ones',
-    imageSrc: '/images/plumbing/Two.svg',
+    description: "Installing new pumps and replacing broken ones",
+    imageSrc: "/images/plumbing/Two.svg",
   },
   {
-    description: 'Fixing showers, taps and replacing cartridges',
-    imageSrc: '/images/plumbing/Three.svg',
+    description: "Fixing showers, taps and replacing cartridges",
+    imageSrc: "/images/plumbing/Three.svg",
   },
   {
-    description: 'Locating and fixing leaks',
-    imageSrc: '/images/plumbing/Four.svg',
+    description: "Locating and fixing leaks",
+    imageSrc: "/images/plumbing/Four.svg",
   },
   {
-    description: 'Running pipework for washing machines and dishwaters',
-    imageSrc: '/images/plumbing/Five.svg',
+    description: "Running pipework for washing machines and dishwaters",
+    imageSrc: "/images/plumbing/Five.svg",
   },
   {
-    description: 'Installing water softeners and filters',
-    imageSrc: '/images/plumbing/Six.svg',
-  },{
-    description: 'Installing boiling water taps',
-    imageSrc: '/images/plumbing/Seven.svg',
-  },{
-    description: 'Repairing toilet flush mechanisms',
-    imageSrc: '/images/plumbing/Eight.svg',
-  },{
-    description: 'All types of shower system repairs and installations',
-    imageSrc: '/images/plumbing/Nine.svg',
+    description: "Installing water softeners and filters",
+    imageSrc: "/images/plumbing/Six.svg",
   },
-  
-]
-
-
+  {
+    description: "Installing boiling water taps",
+    imageSrc: "/images/plumbing/Seven.svg",
+  },
+  {
+    description: "Repairing toilet flush mechanisms",
+    imageSrc: "/images/plumbing/Eight.svg",
+  },
+  {
+    description: "All types of shower system repairs and installations",
+    imageSrc: "/images/plumbing/Nine.svg",
+  },
+];
 
 const Plumbing = () => {
   return (
@@ -70,6 +70,21 @@ second to none.
           buttonText="Book a Plumner"
           imageDes="/van1.svg"
           order="order-2"
+          marginBottom="20"
+        />
+
+        {/* TESTIMONIAL SECTION */}
+        <ImageText
+          title="Our Clients"
+          description="Quote from Michael at Silver Cup
+Carousel perhaps with another from Al;lsop,
+And others from other customers.
+"
+          buttonR= {true}
+          imageDes="/images/testimonial.svg"
+          order="order-none"
+          marginBottom="20"
+          height="450px"
         />
 
         <PlumbingServices />
@@ -114,18 +129,18 @@ second to none.
         />
         <Community />
         <Heading afterOurText="LOCATIONS" />
-        <div className="mb-20">
-          <ImageText
-            title="We have you covered!"
-            description="Our team are based in Harpenden and St Albans covering all the surrounding areas including Redbourn,Wheathampstead, Kimpton, Sandridge, Markyate, Slip End, Caddington, and more."
-            buttonText="Our Locations"
-            imageDes="/van1.svg"
-            order="order-2"
-          />
-        </div>
+
+        <ImageText
+          title="We have you covered!"
+          description="Our team are based in Harpenden and St Albans covering all the surrounding areas including Redbourn,Wheathampstead, Kimpton, Sandridge, Markyate, Slip End, Caddington, and more."
+          buttonText="Our Locations"
+          imageDes="/van1.svg"
+          order="order-2"
+          marginBottom="20"
+        />
       </div>
     </div>
   );
-}
+};
 
-export default Plumbing
+export default Plumbing;

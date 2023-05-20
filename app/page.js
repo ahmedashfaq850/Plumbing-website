@@ -27,6 +27,7 @@ export default function Home() {
         buttonText="Request Callback"
         imageDes="/plumbingsmith.svg"
         order="order-none"
+       
       />
 
       <Services />
@@ -43,6 +44,7 @@ export default function Home() {
         buttonText="Our Locations"
         imageDes="/van1.svg"
         order="order-2"
+        
       />
       </div>
     </main>
