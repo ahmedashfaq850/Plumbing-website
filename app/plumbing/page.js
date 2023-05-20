@@ -1,4 +1,9 @@
+import CTA from '@/components/CTA'
+import Community from '@/components/Community'
+import Heading from '@/components/Heading'
+import ImageText from '@/components/ImageText'
 import PlumbingServices from '@/components/PlumbingServices'
+import Team from '@/components/Team'
 import Image from 'next/image'
 
 const jobs = [
@@ -42,12 +47,13 @@ const jobs = [
 
 const Plumbing = () => {
   return (
-    <div>
+    <div className='p-12 mdu:p-24'>
         <div>
 
             <PlumbingServices />
+            <Team />
             {/* Heading and Paragragh */}
-            <div className='px-[20px] sm:px-[30px] md:px-[70px] lg:px-[90px] flex flex-col gap-5 mb-10 '>
+            <div className=' flex flex-col gap-5 mb-10 '>
               <h3 className='text-xl sm:text-3xl font-semibold'>Plumbing services from Homesmith</h3>
               <p className='text-sm     sm:text-xl '>The most common plumbing jobs we receive include:</p>
             </div>
@@ -67,6 +73,19 @@ const Plumbing = () => {
             ))}
                 </div>
               </div>
+              <CTA
+                CtaText="Not sure which trade you need? Just ask us!"
+                buttonText="Request Callback"
+              />
+              <Community />
+              <Heading afterOurText="LOCATIONS" />
+              <ImageText
+                title="We have you covered!"
+                description="Our team are based in Harpenden and St Albans covering all the surrounding areas including Redbourn,Wheathampstead, Kimpton, Sandridge, Markyate, Slip End, Caddington, and more."
+                buttonText="Our Locations"
+                imageDes="/van1.svg"
+                order="order-2"
+              />
             </div>
         
     </div>
