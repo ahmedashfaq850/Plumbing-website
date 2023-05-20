@@ -8,7 +8,7 @@ const Tobar = () => {
         {/* left section  */}
       <div className='flex items-center gap-2'>
         <Image src="/images/phone.svg" alt="phone icon" width="30" height="30"/>
-        <p className='text-white text-[15px]'>07701 317406</p>
+        <p className='text-white text-[15px]'>07961 067894</p>
       </div>
       {/* right section */}
       <div className='flex items-center gap-4'>

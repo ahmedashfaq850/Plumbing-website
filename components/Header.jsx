@@ -32,8 +32,8 @@ const Header = () => {
             </Link>
         </header>
     <div className={
-        isOpen ? "w-full h-screen bg-white fixed top-0 left-0 z-10 duration-300 flex flex-col items-center pt-[200px] text-[25px] text-center font-bold "
-            : "w-full h-screen bg-white fixed top-30 left-[-100%] z-10 duration-300"
+        isOpen ? "w-full h-screen bg-white  fixed top-0 left-0 z-10 duration-300 flex flex-col items-center pt-[200px] text-[25px] text-center font-bold "
+            : "w-full h-screen bg-white  fixed top-30 left-[-100%] z-10 duration-300"
     }>
             <Image onClick={toggleSideNav} className='absolute cursor-pointer hover:text-[#73D043] top-2 right-3' src="/images/CloseIcon.svg" alt="" width={30} height={30}/>
             <nav className='flex flex-col gap-4 duration-200'>
