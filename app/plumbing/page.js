@@ -47,7 +47,7 @@ const jobs = [
 
 const Plumbing = () => {
   return (
-    <div className="px-12 mdu:px-24">
+    <div className="p-12 mdu:p-24">
       <div>
         <div className='mb-20 mdu:mb-0'>
           <ImageText
