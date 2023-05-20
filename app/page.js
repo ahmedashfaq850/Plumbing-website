@@ -5,6 +5,7 @@ import Heading from "@/components/Heading";
 import Services from "@/components/Services";
 import Banner from "@/components/Banner";
 import Team from "@/components/Team";
+import BathroomBanner from "@/components/BathroomBanner";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       <Banner/>
       <div  className="flex min-h-screen flex-col items-center justify-between p-12 mdu:p-24">
       <Team />
+      {/* Bathroom Banner */}
+      <BathroomBanner />
       <ImageText
         title="Home maintenance, sorted!"
         description="Our expert team can help with plumbing, electrics,
