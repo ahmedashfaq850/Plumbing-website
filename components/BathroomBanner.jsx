@@ -16,7 +16,7 @@ const BathroomBanner = () => {
         <h1 className=" drop-shadow-xl tracking-[5px] md:text-2xl text-[#1B4845] //text-[#F1A78C]// mb-5">
           Exquisite <br /> Bathroom <br /> Renovations
         </h1>
-        <button className="bg-[#1B4845] drop-shadow-xl text-white w-fit py-1 px-2 sm:mb-2 md:mb-0 sm:py-2 sm:px-6 rounded-md md:rounded-lg font-semibold">
+        <button className="bg-[#1B4845] hover:bg-[#73D043] drop-shadow-xl text-white w-fit py-1 px-2 sm:mb-2 md:mb-0 sm:py-2 sm:px-6 rounded-md md:rounded-lg font-semibold">
           Request Callback
         </button>
       </div>
