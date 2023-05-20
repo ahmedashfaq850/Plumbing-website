@@ -6,13 +6,16 @@ import Services from "@/components/Services";
 import Banner from "@/components/Banner";
 import Team from "@/components/Team";
 import BathroomBanner from "@/components/BathroomBanner";
+import Community from "@/components/Community";
 
 export default function Home() {
   return (
     <main > {/* className="flex min-h-screen flex-col items-center justify-between p-12 mdu:p-24" */}
       <Banner/>
       <div  className="flex min-h-screen flex-col items-center justify-between p-12 mdu:p-24">
+        
       <Team />
+  
       {/* Bathroom Banner */}
       <BathroomBanner />
       <ImageText
@@ -31,6 +34,8 @@ export default function Home() {
         CtaText="Not sure which trade you need? Just ask us!"
         buttonText="Request Callback"
       />
+      {/* Community Section */}
+      <Community />
       <Heading afterOurText="LOCATIONS" />
       <ImageText
         title="We have you covered!"
