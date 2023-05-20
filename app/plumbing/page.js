@@ -47,13 +47,15 @@ const jobs = [
 
 const Plumbing = () => {
   return (
-    <div className='p-12 mdu:p-24'>
+    <div className=''>
         <div>
 
             <PlumbingServices />
-            <Team />
+            <div className='p-12 mdu:p-24'>
+              <Team />
+            </div>
             {/* Heading and Paragragh */}
-            <div className=' flex flex-col gap-5 mb-10 '>
+            <div className=' px-[20px] sm:px-[30px] md:px-[70px] lg:px-[90px] flex flex-col -mt-10 sm:-mt-20 gap-5 mb-5 '>
               <h3 className='text-xl sm:text-3xl font-semibold'>Plumbing services from Homesmith</h3>
               <p className='text-sm     sm:text-xl '>The most common plumbing jobs we receive include:</p>
             </div>
@@ -61,7 +63,7 @@ const Plumbing = () => {
               {/* Plumbing jobs */}
               <div className='p-4 md:p-10 lg:p-20  2xl:p-24'>  
        
-                <div className='flex gap-5 sm:gap-10 mb-7 sm:mb-10 flex-wrap  justify-center  '>
+                <div className='flex gap-5 sm:gap-10 mb-7  flex-wrap  justify-center  '>
                   {jobs.map((job, index) => (
                   <div key={index} className='flex p-1   md:p-2 flex-col max-w-[150px] max-h-[150px]  items-center justify-center sm:min-w-[180px] sm:p-3   md:min-w-[300px] md:min-h-[200px] 2xl:min-w-[400px]  bg-white rounded-lg  shadow-lg  '>
                     <div className='w-12 h-12 md:w-[90px] md:h-[100px]'>
@@ -73,6 +75,8 @@ const Plumbing = () => {
             ))}
                 </div>
               </div>
+              <div className= '-mt-20  p-12 mdu:p-24'>
+
               <CTA
                 CtaText="Not sure which trade you need? Just ask us!"
                 buttonText="Request Callback"
@@ -86,6 +90,7 @@ const Plumbing = () => {
                 imageDes="/van1.svg"
                 order="order-2"
               />
+              </div>
             </div>
         
     </div>
