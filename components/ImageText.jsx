@@ -1,13 +1,13 @@
 import React from 'react';
 import Image from 'next/image'
 
-const ImageText = ({title,description,buttonText,imageDes,order}) => {
+const ImageText = ({title,description,buttonText,imageDes,order,marginBottom}) => {
     // console.log(order)
   return (
-    <div className="drop-shadow-xl w-full mdu:h-[350px] mb-10 sm:mb-20 bg-black flex mdu:flex-row flex-col">
+    <div className={`drop-shadow-xl w-full mdu:h-[350px] mb-${marginBottom} sm:mb-${marginBottom} bg-black flex mdu:flex-row flex-col`}>
       {/* Text */}
       <div
-        className={`bg-[#1B4845] w-full max-[861px]:order-2 mdu:w-[55%] ${order} flex justify-center items-center`}
+        className={`bg-[#1B4845] w-full max-[861px]:order-2 mdu:w-[50%] ${order} flex justify-center items-center`}
       >
         <div className="w-full p-5 sm:p-10 gap-4 mdu:gap-4 flex flex-col justify-start">
           <h2 className="text-white font-bold drop-shadow-xl  sm:text-2xl">{title}</h2>
@@ -18,7 +18,7 @@ const ImageText = ({title,description,buttonText,imageDes,order}) => {
         </div>
       </div>
       {/* Image */}
-      <div className="w-full mdu:w-[45%] ">
+      <div className="w-full mdu:w-[50%] ">
         <Image
           src={imageDes}
           width="0"

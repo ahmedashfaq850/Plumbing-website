@@ -1,6 +1,10 @@
-import PlumbingServices from "@/components/PlumbingServices";
-import Image from "next/image";
-import ImageText from "@/components/ImageText";
+import CTA from '@/components/CTA'
+import Community from '@/components/Community'
+import Heading from '@/components/Heading'
+import ImageText from '@/components/ImageText'
+import PlumbingServices from '@/components/PlumbingServices'
+import Team from '@/components/Team'
+import Image from 'next/image'
 
 const jobs = [
   {
@@ -43,23 +47,35 @@ const jobs = [
 
 const Plumbing = () => {
   return (
-    <div>
+    <div className="p-12 mdu:p-24">
       <div>
-        <ImageText
-          title="Local plumbers you can trust"
-          description="We have been offering bathroom and plumbing 
+        <div className='mb-20 mdu:mb-0'>
+          <ImageText
+            title="Local plumbers you can trust"
+            description="We have been offering bathroom and plumbing 
 services for over 15 years in Harpenden, St Albans, 
 and the surrounding areas. Our team are 
 professional, reliable, offering a service that is 
 second to none.
 "
-          buttonText="Call Us"
-          imageDes="/plumbingsmith.svg"
-          order="order-none"
+            buttonText="Call Us"
+            imageDes="/plumbingsmith.svg"
+            order="order-none"
+            marginBottom="0"
+          />
+        </div>
+        <ImageText
+          title="Book  a Homesmith Plumber"
+          description="We’re here to help with leaking taps, shower repairs, toilet repairs, as well as installing new sinks, taps, and appliances. As well as providing quotes for planned work, we offer fully bathroom refurbs."
+          buttonText="Book a Plumner"
+          imageDes="/van1.svg"
+          order="order-2"
         />
+
         <PlumbingServices />
+        <Team />
         {/* Heading and Paragragh */}
-        <div className="px-[20px] sm:px-[30px] md:px-[70px] lg:px-[90px] flex flex-col gap-5 mb-10 ">
+        <div className=" flex flex-col gap-5 mb-10 ">
           <h3 className="text-xl sm:text-3xl font-semibold">
             Plumbing services from Homesmith
           </h3>
@@ -91,7 +107,23 @@ second to none.
               </div>
             ))}
           </div>
+          <p className="text-center mt-5 sm:mt-0 p-3 md:p-4 text-[#73D043] md:text-base 2xl:text-xl text-xs">
+            {jobs.description}
+          </p>
         </div>
+        <CTA
+          CtaText="Not sure which trade you need? Just ask us!"
+          buttonText="Request Callback"
+        />
+        <Community />
+        <Heading afterOurText="LOCATIONS" />
+        <ImageText
+          title="We have you covered!"
+          description="Our team are based in Harpenden and St Albans covering all the surrounding areas including Redbourn,Wheathampstead, Kimpton, Sandridge, Markyate, Slip End, Caddington, and more."
+          buttonText="Our Locations"
+          imageDes="/van1.svg"
+          order="order-2"
+        />
       </div>
     </div>
   );
