@@ -86,7 +86,7 @@ second to none.
 
         {/* Plumbing jobs */}
         <div className="p-4 md:p-10 lg:p-20  2xl:p-24">
-          <div className="flex gap-5 sm:gap-10 mb-7 sm:mb-10 flex-wrap  justify-center  ">
+          <div className="flex gap-5 sm:gap-10 mb-7  flex-wrap  justify-center  ">
             {jobs.map((job, index) => (
               <div
                 key={index}
@@ -114,7 +114,7 @@ second to none.
         />
         <Community />
         <Heading afterOurText="LOCATIONS" />
-        <div className='mb-20'>
+        <div className="mb-20">
           <ImageText
             title="We have you covered!"
             description="Our team are based in Harpenden and St Albans covering all the surrounding areas including Redbourn,Wheathampstead, Kimpton, Sandridge, Markyate, Slip End, Caddington, and more."
