@@ -11,13 +11,13 @@ const Gallery = () => {
         mb="10"
         textColor="text-[#2F83B8]"
       />
-      <div className="flex mb-20 gap-3 justify-center items-center">
+      <div className="flex flex-wrap mb-20 gap-3 justify-center items-center">
         <Image
           src="/images/bathroomBackground.svg"
           width="0"
           height="0"
           sizes="100vw"
-          className="drop-shadow-2xl mdu:h-[250px] mdu:w-full object-cover bg-cover"
+          className="drop-shadow-2xl w-full h-full mdu:h-[250px] mdu:w-[350px] object-cover bg-cover"
           alt="Bathroom Gallery"
         />
         <Image
@@ -25,7 +25,7 @@ const Gallery = () => {
           width="0"
           height="0"
           sizes="100vw"
-          className="mdu:h-[250px] mdu:w-full object-cover bg-cover"
+          className="drop-shadow-2xl w-full h-full mdu:h-[250px] mdu:w-[350px] object-cover bg-cover"
           alt="Bathroom Gallery"
         />
         <Image
@@ -33,7 +33,7 @@ const Gallery = () => {
           width="0"
           height="0"
           sizes="100vw"
-          className="mdu:h-[250px] mdu:w-full object-cover bg-cover"
+          className="drop-shadow-2xl w-full h-full mdu:h-[250px] mdu:w-[350px] object-cover bg-cover"
           alt="Bathroom Gallery"
         />
       </div>
