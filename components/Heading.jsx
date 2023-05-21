@@ -1,13 +1,20 @@
 import React from 'react'
 
-const Heading = ({afterOurText}) => {
+const Heading = ({
+  our = "OUR",
+  afterOurText,
+  mb = "20",
+  textColor = "text-[#73D043]",
+}) => {
   return (
-    <div className="drop-shadow-xl w-full text-center mb-10 sm:mb-20 text-2xl sm:text-4xl">
+    <div
+      className={`drop-shadow-xl w-full text-center mb-10 sm:mb-${mb} text-2xl sm:text-4xl`}
+    >
       <h2 className="text-black drop-shadow-2xl font-extrabold">
-        OUR <span className="text-[#73D043]">{afterOurText}</span>
+        {our} <span className={`${textColor}`}>{afterOurText}</span>
       </h2>
     </div>
   );
-}
+};
 
 export default Heading

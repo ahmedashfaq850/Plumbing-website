@@ -84,7 +84,7 @@ And others from other customers.
           imageDes="/images/testimonial.svg"
           order="order-none"
           marginBottom="20"
-          height="450px"
+          height="500px"
         />
 
         <PlumbingServices />
@@ -137,6 +137,7 @@ And others from other customers.
           imageDes="/van1.svg"
           order="order-2"
           marginBottom="20"
+         
         />
       </div>
     </div>

@@ -12,28 +12,33 @@ const ImageText = ({
   imageDes,
   order,
   marginBottom = "20",
-  height = "350px",
+  height = "400px",
   buttonR = false,
+  bgClass = "bg-[#1B4845]",
+  textTitleClass = 'text-white',
+  textdescClass = 'text-gray-200',
+  buttonClass= 'bg-[#73D043]'
 }) => {
   // console.log(order)
-
+  
   return (
     <div
-      className={`drop-shadow-xl w-full mdu:h-[${height}] mb-${marginBottom} sm:mb-${marginBottom} bg-black flex mdu:flex-row flex-col`}
+      className={`shadow-2xl w-full mdu:h-[${height}]
+       mb-${marginBottom} sm:mb-${marginBottom} bg-black flex mdu:flex-row flex-col`}
     >
       {/* Text */}
       <div
-        className={`bg-[#1B4845] w-full max-[861px]:order-2 mdu:w-[50%] ${order} flex justify-center items-center`}
+        className={`${bgClass} w-full max-[861px]:order-2 mdu:w-[50%] ${order} flex justify-center items-center`}
       >
         <div className="w-full p-5 sm:p-10 gap-4 mdu:gap-4 flex flex-col justify-start">
-          <h2 className="text-white font-bold drop-shadow-xl  sm:text-2xl">
+          <h2 className={`${textTitleClass} font-bold drop-shadow-xl  sm:text-2xl`}>
             {title}
           </h2>
-          <p className="text-gray-200 text-sm sm:text-sm lg:text-lg">
+          <p className={`${textdescClass} text-sm sm:text-sm lg:text-lg`}>
             {description}
           </p>
           {!buttonR ? (
-            <button className="bg-[#73D043] shadow-md text-white w-fit py-1 px-2.5 sm:py-2 sm:px-4 rounded-lg font-semibold">
+            <button className={`${buttonClass} shadow-md text-white w-fit py-1 px-2.5 sm:py-2 sm:px-4 rounded-lg font-semibold `}>
               {buttonText}
             </button>
           ) : (
