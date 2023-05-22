@@ -1,8 +1,8 @@
 import CTA from "@/components/CTA";
 import Community from "@/components/Community";
+import ElectricServices from "@/components/ElectricServices";
 import Heading from "@/components/Heading";
 import ImageText from "@/components/ImageText";
-import PlumbingServices from "@/components/PlumbingServices";
 import Team from "@/components/Team";
 import Image from "next/image";
 
@@ -55,24 +55,19 @@ const Electrics = () => {
       <div>
         <div className="mb-20 mdu:mb-0">
           <ImageText
-            title="Local plumbers you can trust"
-            description="We have been offering bathroom and plumbing 
-services for over 15 years in Harpenden, St Albans, 
-and the surrounding areas. Our team are 
-professional, reliable, offering a service that is 
-second to none.
-"
+            title="A local team of electricians"
+            description="The Homesmith electricians are on hand to help with all your property maintenance tasks, whether it’s fitting spotlights, an extractor fan, plug sockets, and more, whatever the task, we can help!"
             buttonText="Call Us"
-            imageDes="/plumbingsmith.svg"
+            imageDes="/images/electrics/Banner1.svg"
             order="order-none"
             marginBottom="0"
           />
         </div>
         <ImageText
-          title="Book  a Homesmith Plumber"
-          description="We’re here to help with leaking taps, shower repairs, toilet repairs, as well as installing new sinks, taps, and appliances. As well as providing quotes for planned work, we offer fully bathroom refurbs."
+          title="Book a Homesmith Electrician"
+          description="Whether it’s a leaky tap, low pressure shower, replacing a radiator or toilet, and much more!The Homesmith plumbers are here to help."
           buttonText="Book a Plumner"
-          imageDes="/van1.svg"
+          imageDes="/images/electrics/Banner2.svg"
           order="order-2"
           marginBottom="20"
         />
@@ -91,7 +86,7 @@ And others from other customers.
           height="500px"
         />
 
-        <PlumbingServices />
+        <ElectricServices />
         <Team />
         {/* Heading and Paragragh */}
         <div className=" flex flex-col gap-5 mb-10 ">
