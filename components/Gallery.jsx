@@ -9,11 +9,11 @@ const Gallery = () => {
         our="Gallery"
         afterOurText="Of Bathrooms"
         mb="10"
-        textColor="text-[#2F83B8]"
+        textColor="text-[#73D043]"
       />
       <div className="flex flex-wrap mb-20 gap-3 justify-center items-center">
         <Image
-          src="/images/bathroomBackground.svg"
+          src="/images/bathroom/bathroom3.svg"
           width="0"
           height="0"
           sizes="100vw"
@@ -21,7 +21,7 @@ const Gallery = () => {
           alt="Bathroom Gallery"
         />
         <Image
-          src="/images/bathroomBackground.svg"
+          src="/images/bathroom/bahtroom4.svg"
           width="0"
           height="0"
           sizes="100vw"
@@ -29,7 +29,7 @@ const Gallery = () => {
           alt="Bathroom Gallery"
         />
         <Image
-          src="/images/bathroomBackground.svg"
+          src="/images/bathroom/bathroom5.svg"
           width="0"
           height="0"
           sizes="100vw"
