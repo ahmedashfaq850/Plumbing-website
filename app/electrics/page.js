@@ -91,10 +91,10 @@ And others from other customers.
         {/* Heading and Paragragh */}
         <div className=" flex flex-col gap-5 mb-10 ">
           <h3 className="text-xl sm:text-3xl font-semibold">
-            Plumbing services from Homesmith
+            Electric services from Homesmith
           </h3>
           <p className="text-sm     sm:text-xl ">
-            The most common plumbing jobs we receive include:
+            The most common electric jobs we receive include:
           </p>
         </div>
 
