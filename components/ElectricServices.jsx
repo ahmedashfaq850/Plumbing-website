@@ -21,7 +21,7 @@ const services = [
 const ElectricServices = () => {
   return (
     <div className="p-12 drop-shadow-2xl">
-      <Heading afterOurText="PLUMBING SERVICES" />
+      <Heading afterOurText="ELECTRIC SERVICES" />
       <div className="flex gap-10 mb-7 sm:mb-10 flex-wrap justify-center mt-10">
         {services.map((service, index) => (
           <div
