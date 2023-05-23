@@ -43,7 +43,7 @@ const page = () => {
         will ensure your new kitchen is flawlessly brought to life
         with the minimum disruption to your home."
         buttonText="Book a Plumner"
-        imageDes="/images/kitchens/Banner1.svg"
+        imageDes="/images/kitchens/Banner2.svg"
         order="order-2"
         marginBottom="20"
         textTitleClass="text-[#1B4845]"
