@@ -50,7 +50,7 @@ const BathroomImageText = ({
         </div>
       </div>
       {/* Image */}
-      <div className={`w-full mdu:w-[${widthImage}] mt-2 `}>
+      <div className={`w-full mdu:w-[${widthImage}]`}>
         <Image
           src={imageDes}
           width="0"

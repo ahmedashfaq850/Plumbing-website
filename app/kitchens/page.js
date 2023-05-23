@@ -8,6 +8,13 @@ import CTA from '@/components/CTA';
 import Heading from '@/components/Heading';
 
 const page = () => {
+  const points = [
+    'Plumbers for drainage and appliance installation',
+    'Heating engineers for underfloor heating & radiators',
+    'Electricians for ventilation, lighting & appliances',
+    'Carpenters for stud work, boxing-in & cabinet fitting',
+    'Painter decorators for plastering, tiling & painting'
+  ]
   return (
     <Fragment>
       <div className="mb-20 mdu:mb-0 ">
@@ -20,7 +27,7 @@ const page = () => {
           seeking professional kitchen renovation services.
 "
           buttonText="Call Us"
-          imageDes="/images/bathroom/bathroom1.svg"
+          imageDes="/images/kitchens/Banner1.svg"
           order="order-none"
           marginBottom="0"
           textTitleClass="text-[#1B4845]"
@@ -36,7 +43,7 @@ const page = () => {
         will ensure your new kitchen is flawlessly brought to life
         with the minimum disruption to your home."
         buttonText="Book a Plumner"
-        imageDes="/images/bathroom/bathroom21.svg"
+        imageDes="/images/kitchens/Banner1.svg"
         order="order-2"
         marginBottom="20"
         textTitleClass="text-[#1B4845]"
@@ -55,7 +62,7 @@ const page = () => {
           matter how modest or extensive your plans are!
 "
           buttonText="Book a Plumner"
-          imageDes="/images/bathroom/working.svg"
+          imageDes="/images/kitchens/Main Banner.svg"
           order="order-none"
           marginBottom="20"
           textTitleClass="text-white"
@@ -66,6 +73,7 @@ const page = () => {
           widthImage="40%"
           widthText="60%"
           detailDescripCheck={true}
+          bulletPoints={points}
         />
         <Team />
         {/* TESTIMONIAL SECTION */}
