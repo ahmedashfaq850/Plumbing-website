@@ -4,17 +4,17 @@ const services = [
   {
     title: 'Heating Emergencies',
     description: 'No matter the nature of the plumbing problem you have, we can send one of our expert plumbers to identify the problem and soon get it resolved.',
-    imageSrc: '/images/heater/mainImage1.png',
+    imageSrc: '/images/heater/mainimage1.png',
   },
   {
     title: 'Gas Installations',
     description: 'Our plumbers can install your new tap, toilet, radiator, bath, washing machine, boiling water taps, and any other appliances you want fitted.',
-    imageSrc: '/images/heater/mainImage2.png',
+    imageSrc: '/images/heater/mainimage2.png',
   },
   {
     title: 'Gas & Heating Repairs',
     description: 'With repairs, we can dispatch a plumber to you quickly to assess the issue, provide you with a quote, and resolve the problem.',
-    imageSrc: '/images/heater/mainImage3.png',
+    imageSrc: '/images/heater/mainimage3.png',
   },
   
 ]
