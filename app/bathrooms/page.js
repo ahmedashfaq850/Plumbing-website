@@ -8,6 +8,15 @@ import CTA from '@/components/CTA';
 import Heading from '@/components/Heading';
 
 const page = () => {
+
+  const points = [
+    'Plumbers for bath, shower, sink & shower fitting',
+    'Heating engineers for underfloor heating & towel rails',
+    'Electricians for ventilation, lighting & AV installation',
+    'Carpenters for studwork, boxing-in & cabinet fitting',
+    'Painter decorators for plastering, tiling & painting'
+  ]
+
   return (
     <Fragment>
       <div className="mb-20 mdu:mb-0 ">
@@ -46,7 +55,7 @@ to life with the minimum disruption to your home."
         buttonClass="bg-[#1B4845]"
       />
       <div className="px-12 mdu:px-24  ">
-        <Gallery />
+        <Gallery blackText="Gallery of" colorText="Bathrooms" image1="/images/bathroom/bathroom3.svg" image2="/images/bathroom/bahtroom4.svg" image3="/images/bathroom/bathroom5.svg"/>
         <BathroomImageText
           title="Expert tradespeople"
           desc="Full refurbishment of a bathroom isn’t just about 
@@ -66,6 +75,7 @@ modest or extensive your plans are!
           widthImage="40%"
           widthText="60%"
           detailDescripCheck={true}
+          bulletPoints={points}
         />
         <Team />
         {/* TESTIMONIAL SECTION */}
