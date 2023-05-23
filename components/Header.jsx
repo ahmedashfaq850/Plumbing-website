@@ -68,12 +68,8 @@ const Header = () => {
             <Link className="hover:text-[#73D043] duration-300" href="/kitchens">KITCHENS</Link>
             <Link className="hover:text-[#73D043] duration-300" href="/refurbs">REFUBS</Link>
             <Link className="hover:text-[#73D043] duration-300" href="/contact/#contact">CONTACT</Link>
-          <Link
-            className="hover:text-[#73D043] duration-300"
-            href="/contact/#contact"
-          >
-            Contact
-          </Link>
+      
+
         </nav>
       </div>
     </div>
