@@ -46,7 +46,7 @@ const page = () => {
         buttonClass="bg-[#1B4845]"
       />
       <div className="px-12 mdu:px-24  ">
-        <Gallery />
+      <Gallery blackText="Gallery of" colorText="Bathrooms" image1="/images/bathroom/bathroom3.svg" image2="/images/bathroom/bahtroom4.svg" image3="/images/bathroom/bathroom5.svg"/>
         <BathroomImageText
           title="Expert tradespeople"
           desc="Full refurbishment of a bathroom isn’t just about 
