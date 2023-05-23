@@ -46,13 +46,13 @@ const page = () => {
         buttonClass="bg-[#1B4845]"
       />
       <div className="px-12 mdu:px-24  ">
-      <Gallery blackText="Gallery of" colorText="Bathrooms" image1="/images/bathroom/bathroom3.svg" image2="/images/bathroom/bahtroom4.svg" image3="/images/bathroom/bathroom5.svg"/>
+      <Gallery blackText="Gallery of" colorText="Kitchens" image1="/images/kitchens/image1.svg" image2="/images/kitchens/image2.svg" image3="/images/kitchens/image3.svg"/>
         <BathroomImageText
           title="Expert tradespeople"
-          desc="Full refurbishment of a bathroom isn’t just about 
-plumbing and tiling. We have expert tradespeople 
-for every stage of your project – no matter how 
-modest or extensive your plans are!
+          desc="Full refurbishment of a kitchen isn’t just about fitting
+          cabinets and worktops. We have expert
+          tradespeople for every stage of your project – no
+          matter how modest or extensive your plans are!
 "
           buttonText="Book a Plumner"
           imageDes="/images/bathroom/working.svg"

@@ -8,6 +8,15 @@ import CTA from '@/components/CTA';
 import Heading from '@/components/Heading';
 
 const page = () => {
+
+  const points = [
+    'Plumbers for bath, shower, sink & shower fitting',
+    'Heating engineers for underfloor heating & towel rails',
+    'Electricians for ventilation, lighting & AV installation',
+    'Carpenters for studwork, boxing-in & cabinet fitting',
+    'Painter decorators for plastering, tiling & painting'
+  ]
+
   return (
     <Fragment>
       <div className="mb-20 mdu:mb-0 ">
@@ -66,6 +75,7 @@ modest or extensive your plans are!
           widthImage="40%"
           widthText="60%"
           detailDescripCheck={true}
+          bulletPoints={points}
         />
         <Team />
         {/* TESTIMONIAL SECTION */}

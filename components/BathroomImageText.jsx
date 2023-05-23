@@ -17,6 +17,7 @@ const BathroomImageText = ({
   textdescClass = "text-gray-200",
   widthImage = "50%",
   widthText = "50%",
+  bulletPoints
 }) => {
   // console.log(order)
 
@@ -38,13 +39,14 @@ const BathroomImageText = ({
           <p className={`${textdescClass} text-sm sm:text-sm lg:text-lg`}>
             {desc}
           </p>
-          <p className={`${textdescClass}  text-sm sm:text-sm lg:text-lg`}>
-            - Plumbers for bath, shower, sink & shower fitting <br />
-            - Heating engineers for underfloor heating & towel rails <br />
-            - Electricians for ventilation, lighting & AV installation <br />
-            - Carpenters for studwork, boxing-in & cabinet fitting <br />-
-            Painter decorators for plastering, tiling & painting
-          </p>
+          <div>
+            {bulletPoints?.map((item,index)=>(
+              <p key={index} className={`${textdescClass}  text-sm sm:text-sm lg:text-lg`}>
+                - {item}
+              </p>
+            ))}
+          </div>
+          
         </div>
       </div>
       {/* Image */}
