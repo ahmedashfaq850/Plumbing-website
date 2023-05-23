@@ -15,7 +15,6 @@ const Header = () => {
         setIsHovered(!isHovered);
       };
 
-      console.log(isHovered)
 
   return (
     <div id="home">
