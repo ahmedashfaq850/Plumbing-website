@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -12,12 +13,12 @@ const Footer = () => {
                         <div>
                             <h1 className='text-[#2AB237] font-bold text-2xl mb-[10px] md:mb-[30px]'>Our Services</h1>
                             <ul className='text-white'>
-                                <li>Plumbing</li>
-                                <li>Electrics</li>
-                                <li>Heating</li>
-                                <li>Bathrooms</li>
-                                <li>Kitchens</li>
-                                <li>Refurbs</li>
+                                <Link href="/plumbing"><li>Plumbing</li></Link>
+                                <Link href="/electrics"><li>Electrics</li></Link>
+                                <Link href="/heating"><li>Heating</li></Link>
+                                <Link href="/bathrooms"> <li>Bathrooms</li></Link>
+                                <Link href="/kitchens"><li>Kitchens</li></Link>
+                                <Link href="/refubs"><li>Refurbs</li></Link>
                             </ul>
                         </div>
                         <div>

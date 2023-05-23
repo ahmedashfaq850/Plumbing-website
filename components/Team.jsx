@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link";
 const Team = () => {
   return (
     <div className="drop-shadow-xl w-full mdu:h-[400px] mb-10 sm:mb-20 flex mdu:flex-row flex-col">
@@ -23,9 +24,11 @@ const Team = () => {
           <p className="text-gray-200 text-sm sm:text-sm lg:text-lg">We are a locally based team, with Simon having lived in 
                      Harpenden for over 30 years. You may recognise some 
                      our team from the local Rugby club.</p>
+         <Link href='/contact#contact'>
           <button className="bg-[#73D043] shadow-md text-white w-fit py-2 px-5 sm:py-2 sm:px-10 rounded-lg font-semibold">
-            Call Us
-          </button>
+              Call Us
+            </button>
+         </Link>
         </div>
       </div>
     </div>

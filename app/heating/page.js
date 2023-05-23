@@ -64,7 +64,7 @@ const Heating = () => {
           title="Book a Heating Engineer"
           description="We understand how frustrating and stressful it is to be without hot water or central heating when you need it. When you call the Homesmith team, we’ll do everything we can to get one of our qualified gas engineers to you as quickly as possible."
           buttonText="Book a Plumner"
-          imageDes="/images/heater/Banner2.svg"
+          imageDes="/images/heater/Banner2new.svg"
           order="order-2"
           marginBottom="20"
         />

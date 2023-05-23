@@ -29,7 +29,7 @@ const Banner = () => {
         plumbing, heating, electrics, and handyman services to <br /> properties across Harpenden, St Albans, and the surrounding areas.
         
         </p>
-        <Link href="#contact">
+        <Link href="#services">
         <button className="bg-[#73D043] text-xs sm:text-xl text-white  shadow-xl rounded-lg py-2 md:py-4 px-3 sm:px-5 font-bold">
         EXPLORE OUR SERVICES
         </button>

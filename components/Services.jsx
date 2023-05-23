@@ -35,7 +35,7 @@ const services = [
 ]
 const Services = () => {
   return (
-    <div>  
+    <div id='services'>  
         <Heading afterOurText='SERVICES'/>
         <div className='flex  gap-10 mb-7 sm:mb-10 flex-wrap justify-center mt-10'>
             {services.map((service, index) => (

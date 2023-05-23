@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Stars = () => {
   return <Image src="/images/rating.svg" width="28" height="28" alt="rating" />;
@@ -44,11 +45,13 @@ const ImageText = ({
           </p>
 
           {!buttonR ? (
-            <button
+            <Link href="/contact#contact">
+              <button
               className={`${buttonClass} shadow-md text-white w-fit py-1 px-2.5 sm:py-2 sm:px-4 rounded-lg font-semibold `}
             >
               {buttonText}
             </button>
+            </Link>
           ) : (
             <div className="flex justify-start items-center">
               <Stars />
