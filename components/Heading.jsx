@@ -10,7 +10,7 @@ const Heading = ({
     <div
       className={`drop-shadow-xl w-full text-center mb-10 sm:${mb} text-2xl sm:text-4xl`}
     >
-      <h2 className="text-black drop-shadow-2xl font-extrabold">
+      <h2 className="text-black tracking-widest drop-shadow-2xl font-extrabold">
         {our} <span className={`${textColor}`}>{afterOurText}</span>
       </h2>
     </div>
