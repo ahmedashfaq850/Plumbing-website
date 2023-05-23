@@ -8,7 +8,7 @@ const Gallery = () => {
       <Heading
         our="Gallery"
         afterOurText="Of Bathrooms"
-        mb="10"
+        mb="mb-0"
         textColor="text-[#73D043]"
       />
       <div className="flex flex-wrap mb-20 gap-3 justify-center items-center">

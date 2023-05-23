@@ -24,7 +24,7 @@ const Header = () => {
                     <Link href="#home">HOME</Link>
                     <Link href="#about">ABOUT</Link>
                     <Link href="#services">SERVICES</Link>
-                    <Link href="#contact">CONTACT</Link>
+                    <Link href="/contact/#contact">CONTACT</Link>
                 </nav>
             </div>
             <Link onClick={toggleSideNav} className='lg:hidden cursor-pointer' href="/">
