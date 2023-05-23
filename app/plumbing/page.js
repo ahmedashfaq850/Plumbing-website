@@ -111,7 +111,7 @@ second to none.
             {jobs.map((job, index) => (
               <div
                 key={index}
-                className="flex p-1   md:p-2 flex-col max-w-[150px] max-h-[150px]  items-center justify-center sm:min-w-[180px] sm:p-3   md:min-w-[300px] md:min-h-[200px] 2xl:min-w-[400px]  bg-white rounded-lg  shadow-lg  "
+                className="flex p-1   md:p-2 flex-col w-[150px] h-[150px]  items-center justify-center sm:min-w-[180px] sm:p-3   md:min-w-[300px] md:min-h-[200px] 2xl:min-w-[400px]  bg-white rounded-lg  shadow-lg  "
               >
                 <div className="w-12 h-12 md:w-[90px] md:h-[100px]">
                   <Image
