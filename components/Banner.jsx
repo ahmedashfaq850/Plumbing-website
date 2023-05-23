@@ -15,7 +15,6 @@ const Banner = () => {
           width="0"
           height="0"
           sizes="100vw"
-          priority
         />
       </div>
         <div class="absolute inset-0 bg-black opacity-60"></div>

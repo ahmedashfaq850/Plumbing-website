@@ -12,7 +12,7 @@ const Team = () => {
           sizes="100vw"
           className="w-full h-full bg-cover object-cover"
           alt="plumbing"
-          priority
+          // priority
         />
       </div>
       {/* Text */}
