@@ -86,12 +86,12 @@ And others from other customers.
             marginBottom="20"
             height="500px"
           />
-          </div>
+      </div>
 
-          <ElectricServices />
-          <div className="px-12 mdu:px-24">
+      <ElectricServices />
+      <div className="px-12 mdu:px-24">
             <Team  />
-          </div>
+      </div>
           {/* Heading and Paragragh */}
           <div className=" px-8 mdu:px-24flex flex-col gap-5 mb-10 ">
             <h3 className="text-xl sm:text-3xl font-semibold">
@@ -108,7 +108,7 @@ And others from other customers.
               {jobs.map((job, index) => (
                 <div
                   key={index}
-                  className="flex p-1   md:p-2 flex-col max-w-[150px] max-h-[150px]  items-center justify-center sm:min-w-[180px] sm:p-3   md:min-w-[300px] md:min-h-[200px] 2xl:min-w-[400px]  bg-white rounded-lg  shadow-lg  "
+                  className="flex p-1   md:p-2 flex-col w-[150px] h-[150px]  items-center justify-center sm:min-w-[180px] sm:p-3   md:min-w-[300px] md:min-h-[200px] 2xl:min-w-[400px]  bg-white rounded-lg  shadow-lg  "
                 >
                   <div className="w-12 h-12 md:w-[90px] md:h-[100px]">
                     <Image
