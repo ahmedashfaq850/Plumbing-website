@@ -7,10 +7,17 @@ import { useState } from 'react';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isHovered, setIsHovered] = useState(false);
 
     const toggleSideNav = () => {
         setIsOpen(!isOpen);
     };
+
+    const handleHover = () => {
+        setIsHovered(!isHovered);
+      };
+
+      console.log(isHovered)
 
   return (
     <div id="home">
@@ -22,12 +29,7 @@ const Header = () => {
             <div className='hidden lg:block'>
                 <nav className='flex gap-5 font-bold text-[20px] text-[#73D043]'>
                     <Link href="#home">HOME</Link>
-                    <Link href="#services">Plumbing</Link>
-                    <Link href="#services">Electrics</Link>
-                    <Link href="#services">Heating</Link>
-                    <Link href="#services">Bathrooms</Link>
-                    <Link href="#services">Kitchens</Link>
-                    <Link href="#services">Refubs</Link>
+                    <Link onMouseEnter={handleHover} onMouseLeave={handleHover} href="#home">SERVICES</Link>
                     <Link href="#contact">CONTACT</Link>
                 </nav>
             </div>
@@ -42,12 +44,12 @@ const Header = () => {
             <Image onClick={toggleSideNav} className='absolute cursor-pointer hover:text-[#73D043] top-2 right-3' src="/images/CloseIcon.svg" alt="" width={30} height={30}/>
             <nav className='flex flex-col gap-4 duration-200'>
                 <Link className='hover:text-[#73D043] duration-300' href="#home">HOME</Link>
-                <Link href="#services">Plumbing</Link>
-                    <Link href="#services">Electrics</Link>
-                    <Link href="#services">Heating</Link>
-                    <Link href="#services">Bathrooms</Link>
-                    <Link href="#services">Kitchens</Link>
-                    <Link href="#services">Refubs</Link>
+                <Link className='hover:text-[#73D043] duration-300' href="#home">Plumbing</Link>
+                <Link className='hover:text-[#73D043] duration-300' href="#home">Electrics</Link>
+                <Link className='hover:text-[#73D043] duration-300' href="#home">Heating</Link>
+                <Link className='hover:text-[#73D043] duration-300' href="#home">Bathrooms</Link>
+                <Link className='hover:text-[#73D043] duration-300' href="#home">Kitchens</Link>
+                <Link className='hover:text-[#73D043] duration-300' href="#home">Refubs</Link>
                 <Link className='hover:text-[#73D043] duration-300' href="#contact">CONTACT</Link>
             </nav>
         </div>
