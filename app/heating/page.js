@@ -5,6 +5,7 @@ import Heading from "@/components/Heading";
 import ImageText from "@/components/ImageText";
 import Team from "@/components/Team";
 import Image from "next/image";
+import { Fragment } from "react";
 
 const jobs = [
   {
@@ -48,9 +49,8 @@ const jobs = [
 
 const Heating = () => {
   return (
-    <div className="px-12 mdu:px-24">
-      <div>
-        <div className="mb-20 mdu:mb-0">
+    <Fragment>
+      <div className="mb-20 mdu:mb-0">
           <ImageText
             title="Heating when you need it!"
             description="Whether it’s repairing a broken gas boiler, fixing a gas leak, installing a new central heating system, or carrying out a gas safety check, the Homesmith team are here to help."
@@ -68,6 +68,9 @@ const Heating = () => {
           order="order-2"
           marginBottom="20"
         />
+    <div className="px-12 mdu:px-24">
+      <div>
+        
 
         {/* TESTIMONIAL SECTION */}
         <ImageText
@@ -137,6 +140,7 @@ And others from other customers.
         />
       </div>
     </div>
+    </Fragment>
   );
 };
 

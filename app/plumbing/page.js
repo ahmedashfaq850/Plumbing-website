@@ -5,6 +5,7 @@ import ImageText from "@/components/ImageText";
 import PlumbingServices from "@/components/PlumbingServices";
 import Team from "@/components/Team";
 import Image from "next/image";
+import { Fragment } from "react";
 
 const jobs = [
   {
@@ -47,9 +48,8 @@ const jobs = [
 
 const Plumbing = () => {
   return (
-    <div className="px-12 mdu:px-24">
-      <div>
-        <div className="mb-20 mdu:mb-0">
+    <Fragment>
+      <div className="mb-20 mdu:mb-0">
           <ImageText
             title="Local plumbers you can trust"
             description="We have been offering bathroom and plumbing 
@@ -73,6 +73,9 @@ second to none.
           marginBottom="20"
         />
 
+    <div className="px-12 mdu:px-24">
+      <div>
+        
         {/* TESTIMONIAL SECTION */}
         <ImageText
           title="Our Clients"
@@ -141,6 +144,7 @@ And others from other customers.
         />
       </div>
     </div>
+    </Fragment>
   );
 };
 
