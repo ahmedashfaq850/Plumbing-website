@@ -21,11 +21,11 @@ const page = () => {
           imageDes="/images/refurbs/banner1.jpg"
           order="order-none"
           marginBottom="0"
-          textTitleClass="text-[#1B4845]"
-          textdescClass="text-gray-700"
-          bgClass="bg-white"
+          textTitleClass="text-white"
+          textdescClass="text-white"
+          bgClass="bg-[#1B4845]"
           height="h-[400px]"
-          buttonClass="bg-[#1B4845]"
+          buttonClass="bg-[#73D043]"
         />
       </div>
       <ImageText
@@ -36,11 +36,11 @@ const page = () => {
         imageDes="/images/refurbs/banner2.jpg"
         order="order-2"
         marginBottom="20"
-        textTitleClass="text-[#1B4845]"
-        textdescClass="text-gray-700"
-        bgClass="bg-white"
+        textTitleClass="text-white"
+        textdescClass="text-white"
+        bgClass="bg-[#1B4845]"
         height="h-[400px]"
-        buttonClass="bg-[#1B4845]"
+        buttonClass="bg-[#73D043]"
       />
       <div className="px-12 mdu:px-24  ">
       <Gallery blackText="Gallery of" colorText="Refurbs" image1="/images/refurbs/gallery1.jpg" image2="/images/refurbs/gallery2.jpg" image3="/images/refurbs/gallery3.jpg"/>
