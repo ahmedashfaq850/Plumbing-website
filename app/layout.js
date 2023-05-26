@@ -1,10 +1,10 @@
 import Tobar from '@/components/Tobar'
 import './globals.css'
-import { Outfit } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
-const outfit = Outfit({ subsets: ['latin'] })
+const poppins = Poppins({  subsets: ['latin'] , weight: ['100','200','300','400','500','600','700','800','900']})
 
 export const metadata = {
   title: 'PlumbSmith',
@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={outfit.className}>
+      <body className={poppins.className}>
         <Tobar/>
         <Header  />
         {children}

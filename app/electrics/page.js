@@ -132,13 +132,12 @@ And others from other customers.
               buttonText="Request Callback"
             />
             <Community />
-            <Heading afterOurText="LOCATIONS" />
 
             <ImageText
               title="We have you covered!"
               description="Our team are based in Harpenden and St Albans covering all the surrounding areas including Redbourn,Wheathampstead, Kimpton, Sandridge, Markyate, Slip End, Caddington, and more."
               buttonText="Our Locations"
-              imageDes="/van1.svg"
+              imageDes="/van1.png"
               order="order-2"
               marginBottom="20"
             />

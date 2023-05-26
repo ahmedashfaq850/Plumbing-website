@@ -25,7 +25,7 @@ export default function Home() {
         refurbs, and much more. Tell us about your task and 
         we’ll discuss how we can help."
         buttonText="Request Callback"
-        imageDes="/plumbingsmith.svg"
+        imageDes="/plumbingsmith.png"
         order="order-none"
        
       />
@@ -37,12 +37,12 @@ export default function Home() {
       />
       {/* Community Section */}
       <Community />
-      <Heading afterOurText="LOCATIONS" />
+      
       <ImageText
         title="We have you covered!"
         description="Our team are based in Harpenden and St Albans covering all the surrounding areas including Redbourn,Wheathampstead, Kimpton, Sandridge, Markyate, Slip End, Caddington, and more."
         buttonText="Our Locations"
-        imageDes="/van1.svg"
+        imageDes="/van1.png"
         order="order-2"
         
       />

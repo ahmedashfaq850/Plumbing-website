@@ -2,11 +2,11 @@ import Image from "next/image"
 import Link from "next/link";
 const Team = () => {
   return (
-    <div className="drop-shadow-xl w-full mdu:h-[400px] mb-10 sm:mb-20 flex mdu:flex-row flex-col">
+    <div className="drop-shadow-xl w-full mdu:h-[450px] mb-10 sm:mb-20 flex mdu:flex-row flex-col">
       {/* Image */}
       <div className="w-full mdu:w-[45%] ">
         <Image
-          src={'/images/Teams.svg'}
+          src={'/images/Teams.png'}
           width="0"
           height="0"
           sizes="100vw"

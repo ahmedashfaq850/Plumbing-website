@@ -3,21 +3,6 @@ import Link from 'next/link'
 import Heading from './Heading'
 const services = [
   {
-    title: 'Plumbing',
-    description: 'Our plumbing solutions can help with leaking taps, new  toilets, showers, and more.',
-    imageSrc: '/images/plumbing.svg',
-  },
-  {
-    title: 'Electrics',
-    description: 'Our electricians can fit your spotlights, sockets, switches, extractor fans, and more.',
-    imageSrc: '/images/electrics.svg',
-  },
-  {
-    title: 'Heating',
-    description: 'Professional heating engineers who can provide boiler, central heating, and gas services.',
-    imageSrc: '/images/heating.svg',
-  },
-  {
     title: 'Bathrooms',
     description: 'Our Bathrooms solutions can help with leaking taps, showers, and more.',
     imageSrc: '/images/bathroom.svg',
@@ -26,6 +11,21 @@ const services = [
     title: 'Kitchens',
     description: 'From fixing leaky faucets to installing new sinks and garbage disposals.',
     imageSrc: '/images/kitchen.svg',
+  },
+  {
+    title: 'Plumbing',
+    description: 'Our plumbing solutions can help with leaking taps, new  toilets, and more.',
+    imageSrc: '/images/plumbing.svg',
+  },
+  {
+    title: 'Heating',
+    description: 'Professional heating engineers who can provide boiler, central heating, and gas services.',
+    imageSrc: '/images/heating.svg',
+  },
+  {
+    title: 'Electrics',
+    description: 'Our electricians can fit your spotlights, sockets, switches, extractor fans, and more.',
+    imageSrc: '/images/electrics.svg',
   },
   {
     title: 'Refurbs',
