@@ -1,7 +1,6 @@
 import CTA from "@/components/CTA";
 import Community from "@/components/Community";
 import HeatingServices from "@/components/HeatingServices";
-import Heading from "@/components/Heading";
 import ImageText from "@/components/ImageText";
 import Team from "@/components/Team";
 import Image from "next/image";
@@ -55,7 +54,7 @@ const Heating = () => {
             title="Heating when you need it!"
             description="Whether it’s repairing a broken gas boiler, fixing a gas leak, installing a new central heating system, or carrying out a gas safety check, the Homesmith team are here to help."
             buttonText="Call Us"
-            imageDes="/images/heater/Banner1.svg"
+            imageDes="/images/heater/Banner1.png"
             order="order-none"
             marginBottom="0"
           />
@@ -64,7 +63,7 @@ const Heating = () => {
           title="Book a Heating Engineer"
           description="We understand how frustrating and stressful it is to be without hot water or central heating when you need it. When you call the Homesmith team, we’ll do everything we can to get one of our qualified gas engineers to you as quickly as possible."
           buttonText="Book a Plumner"
-          imageDes="/images/heater/Banner2new.svg"
+          imageDes="/images/heater/Banner2.png"
           order="order-2"
           marginBottom="20"
         />
