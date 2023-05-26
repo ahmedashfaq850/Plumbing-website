@@ -27,7 +27,7 @@ const page = () => {
           seeking professional kitchen renovation services.
 "
           buttonText="Call Us"
-          imageDes="/images/kitchens/Banner1.svg"
+          imageDes="/images/kitchens/Banner1.png"
           order="order-none"
           marginBottom="0"
           textTitleClass="text-white"
@@ -43,7 +43,7 @@ const page = () => {
         will ensure your new kitchen is flawlessly brought to life
         with the minimum disruption to your home."
         buttonText="Book a Plumner"
-        imageDes="/images/kitchens/Banner2.svg"
+        imageDes="/images/kitchens/Banner2.png"
         order="order-2"
         marginBottom="20"
         textTitleClass="text-white"
@@ -53,7 +53,7 @@ const page = () => {
         buttonClass="bg-[#73D043]"
       />
       <div className="px-12 mdu:px-24  ">
-      <Gallery blackText="Gallery of" colorText="Kitchens" image1="/images/kitchens/image1.svg" image2="/images/kitchens/image2.svg" image3="/images/kitchens/image3.svg"/>
+      <Gallery blackText="Gallery of" colorText="Kitchens" image1="/images/kitchens/image1.png" image2="/images/kitchens/image2.png" image3="/images/kitchens/image3.png"/>
         <BathroomImageText
           title="Expert tradespeople"
           desc="Full refurbishment of a kitchen isn’t just about fitting
@@ -62,7 +62,7 @@ const page = () => {
           matter how modest or extensive your plans are!
 "
           buttonText="Book a Plumner"
-          imageDes="/images/kitchens/Main Banner.svg"
+          imageDes="/images/kitchens/Main Banner.png"
           order="order-none"
           marginBottom="20"
           textTitleClass="text-white"

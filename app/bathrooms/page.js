@@ -29,7 +29,7 @@ serving homeowners in Harpenden, St Albans, and the
 surrounding areas.
 "
           buttonText="Call Us"
-          imageDes="/images/bathroom/bathroom1.svg"
+          imageDes="/images/bathroom/bathroom1.png"
           order="order-none"
           marginBottom="0"
           textTitleClass="text-white"
@@ -45,7 +45,7 @@ surrounding areas.
 team will ensure your new bathroom is flawlessly brought
 to life with the minimum disruption to your home."
         buttonText="Book a Plumner"
-        imageDes="/images/bathroom/bathroom21.svg"
+        imageDes="/images/bathroom/bathroom21.png"
         order="order-2"
         marginBottom="20"
         textTitleClass="text-white"
@@ -55,7 +55,7 @@ to life with the minimum disruption to your home."
         buttonClass="bg-[#73D043]"
       />
       <div className="px-12 mdu:px-24  ">
-        <Gallery blackText="Gallery of" colorText="Bathrooms" image1="/images/bathroom/bathroom3.svg" image2="/images/bathroom/bahtroom4.svg" image3="/images/bathroom/bathroom5.svg"/>
+        <Gallery blackText="Gallery of" colorText="Bathrooms" image1="/images/bathroom/bathroom3.png" image2="/images/bathroom/bahtroom4.png" image3="/images/bathroom/bathroom5.png"/>
         <BathroomImageText
           title="Expert tradespeople"
           desc="Full refurbishment of a bathroom isn’t just about 
