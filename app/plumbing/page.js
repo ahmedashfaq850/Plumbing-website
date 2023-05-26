@@ -68,7 +68,7 @@ second to none.
           title="Book  a Homesmith Plumber"
           description="We’re here to help with leaking taps, shower repairs, toilet repairs, as well as installing new sinks, taps, and appliances. As well as providing quotes for planned work, we offer fully bathroom refurbs."
           buttonText="Book a Plumner"
-          imageDes="/van1.svg"
+          imageDes="/van1.png"
           order="order-2"
           marginBottom="20"
         />

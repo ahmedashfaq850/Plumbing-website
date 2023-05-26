@@ -32,11 +32,11 @@ surrounding areas.
           imageDes="/images/bathroom/bathroom1.svg"
           order="order-none"
           marginBottom="0"
-          textTitleClass="text-[#1B4845]"
-          textdescClass="text-gray-700"
-          bgClass="bg-white"
+          textTitleClass="text-white"
+          textdescClass="text-white"
+          bgClass="bg-[#1B4845]"
           height="h-[400px]"
-          buttonClass="bg-[#1B4845]"
+          buttonClass="bg-[#73D043]"
         />
       </div>
       <ImageText
@@ -48,11 +48,11 @@ to life with the minimum disruption to your home."
         imageDes="/images/bathroom/bathroom21.svg"
         order="order-2"
         marginBottom="20"
-        textTitleClass="text-[#1B4845]"
-        textdescClass="text-gray-700"
-        bgClass="bg-white"
+        textTitleClass="text-white"
+        textdescClass="text-white"
+        bgClass="bg-[#1B4845]"
         height="h-[400px]"
-        buttonClass="bg-[#1B4845]"
+        buttonClass="bg-[#73D043]"
       />
       <div className="px-12 mdu:px-24  ">
         <Gallery blackText="Gallery of" colorText="Bathrooms" image1="/images/bathroom/bathroom3.svg" image2="/images/bathroom/bahtroom4.svg" image3="/images/bathroom/bathroom5.svg"/>

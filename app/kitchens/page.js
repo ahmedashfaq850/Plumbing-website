@@ -30,11 +30,11 @@ const page = () => {
           imageDes="/images/kitchens/Banner1.svg"
           order="order-none"
           marginBottom="0"
-          textTitleClass="text-[#1B4845]"
-          textdescClass="text-gray-700"
-          bgClass="bg-white"
+          textTitleClass="text-white"
+          textdescClass="text-white"
+          bgClass="bg-[#1B4845]"
           height="h-[400px]"
-          buttonClass="bg-[#1B4845]"
+          buttonClass="bg-[#73D043]"
         />
       </div>
       <ImageText
@@ -46,11 +46,11 @@ const page = () => {
         imageDes="/images/kitchens/Banner2.svg"
         order="order-2"
         marginBottom="20"
-        textTitleClass="text-[#1B4845]"
-        textdescClass="text-gray-700"
-        bgClass="bg-white"
+        textTitleClass="text-white"
+        textdescClass="text-white"
+        bgClass="bg-[#1B4845]"
         height="h-[400px]"
-        buttonClass="bg-[#1B4845]"
+        buttonClass="bg-[#73D043]"
       />
       <div className="px-12 mdu:px-24  ">
       <Gallery blackText="Gallery of" colorText="Kitchens" image1="/images/kitchens/image1.svg" image2="/images/kitchens/image2.svg" image3="/images/kitchens/image3.svg"/>
