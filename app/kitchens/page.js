@@ -27,14 +27,14 @@ const page = () => {
           seeking professional kitchen renovation services.
 "
           buttonText="Call Us"
-          imageDes="/images/kitchens/Banner1.svg"
+          imageDes="/images/kitchens/Banner1.png"
           order="order-none"
           marginBottom="0"
-          textTitleClass="text-[#1B4845]"
-          textdescClass="text-gray-700"
-          bgClass="bg-white"
-          
-          buttonClass="bg-[#1B4845]"
+          textTitleClass="text-white"
+          textdescClass="text-white"
+          bgClass="bg-[#1B4845]"
+          height="h-[400px]"
+          buttonClass="bg-[#73D043]"
         />
       </div>
       <ImageText
@@ -43,17 +43,17 @@ const page = () => {
         will ensure your new kitchen is flawlessly brought to life
         with the minimum disruption to your home."
         buttonText="Book a Plumner"
-        imageDes="/images/kitchens/Banner2.svg"
+        imageDes="/images/kitchens/Banner2.png"
         order="order-2"
         marginBottom="20"
-        textTitleClass="text-[#1B4845]"
-        textdescClass="text-gray-700"
-        bgClass="bg-white"
-
-        buttonClass="bg-[#1B4845]"
+        textTitleClass="text-white"
+        textdescClass="text-white"
+        bgClass="bg-[#1B4845]"
+        height="h-[400px]"
+        buttonClass="bg-[#73D043]"
       />
       <div className="px-12 mdu:px-24  ">
-      <Gallery blackText="Gallery of" colorText="Kitchens" image1="/images/kitchens/image1.svg" image2="/images/kitchens/image2.svg" image3="/images/kitchens/image3.svg"/>
+      <Gallery blackText="Gallery of" colorText="Kitchens" image1="/images/kitchens/image1.png" image2="/images/kitchens/image2.png" image3="/images/kitchens/image3.png"/>
         <BathroomImageText
           title="Expert tradespeople"
           desc="Full refurbishment of a kitchen isn’t just about fitting
@@ -62,7 +62,7 @@ const page = () => {
           matter how modest or extensive your plans are!
 "
           buttonText="Book a Plumner"
-          imageDes="/images/kitchens/Main Banner.svg"
+          imageDes="/images/kitchens/Main Banner.png"
           order="order-none"
           marginBottom="20"
           textTitleClass="text-white"
@@ -95,12 +95,11 @@ And others from other customers.
           CtaText="Not sure which trade you need? Just ask us!"
           buttonText="Request Callback"
         />
-        <Heading afterOurText="LOCATIONS" />
         <ImageText
           title="We have you covered!"
           description="Our team are based in Harpenden and St Albans covering all the surrounding areas including Redbourn,Wheathampstead, Kimpton, Sandridge, Markyate, Slip End, Caddington, and more."
           buttonText="Our Locations"
-          imageDes="/van1.svg"
+          imageDes="/van1.png"
           order="order-2"
         />
       </div>

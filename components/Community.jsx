@@ -1,7 +1,7 @@
 import Image from 'next/image'
 const Community = () => {
   return (
-    <div className="drop-shadow-xl w-full mdu:h-[400px] mb-10 sm:mb-20 flex mdu:flex-row flex-col">
+    <div className="drop-shadow-xl w-full mdu:h-[450px] mb-10 sm:mb-20 flex mdu:flex-row flex-col">
     
     {/* Text */}
     <div
@@ -16,7 +16,7 @@ const Community = () => {
     {/* Image */}
     <div className="w-full mdu:w-[45%] ">
       <Image
-        src={'/images/community.svg'}
+        src={'/images/community.png'}
         width="0"
         height="0"
         sizes="100vw"

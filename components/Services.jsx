@@ -3,34 +3,34 @@ import Link from 'next/link'
 import Heading from './Heading'
 const services = [
   {
-    title: 'Plumbing',
-    description: 'Our plumbing solutions can help with leaking taps, new  toilets, showers, and more.',
-    imageSrc: '/images/plumbing.svg',
-  },
-  {
-    title: 'Electrics',
-    description: 'Our electricians can fit your spotlights, sockets, switches, extractor fans, and more.',
-    imageSrc: '/images/electrics.svg',
-  },
-  {
-    title: 'Heating',
-    description: 'Professional heating engineers who can provide boiler, central heating, and gas services.',
-    imageSrc: '/images/heating.svg',
-  },
-  {
     title: 'Bathrooms',
     description: 'Our Bathrooms solutions can help with leaking taps, showers, and more.',
-    imageSrc: '/images/bathroom.svg',
+    imageSrc: '/images/bathroom.png',
   },
   {
     title: 'Kitchens',
     description: 'From fixing leaky faucets to installing new sinks and garbage disposals.',
-    imageSrc: '/images/kitchen.svg',
+    imageSrc: '/images/cooker.png',
+  },
+  {
+    title: 'Plumbing',
+    description: 'Our plumbing solutions can help with leaking taps, new  toilets, and more.',
+    imageSrc: '/images/plumber.png',
+  },
+  {
+    title: 'Heating',
+    description: 'Professional heating engineers who can provide boiler, central heating, and gas services.',
+    imageSrc: '/images/heating.png',
+  },
+  {
+    title: 'Electrics',
+    description: 'Our electricians can fit your spotlights, sockets, switches, extractor fans, and more.',
+    imageSrc: '/images/electricity.png',
   },
   {
     title: 'Refurbs',
     description: 'Our Refurbs solutions can help with painting on walls.',
-    imageSrc: '/images/refurbs.svg',
+    imageSrc: '/images/home-repair.png',
   },
 ]
 const Services = () => {

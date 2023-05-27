@@ -29,14 +29,22 @@ serving homeowners in Harpenden, St Albans, and the
 surrounding areas.
 "
           buttonText="Call Us"
-          imageDes="/images/bathroom/bathroom1.svg"
+          imageDes="/images/bathroom/bathroom1.png"
           order="order-none"
           marginBottom="0"
+<<<<<<< HEAD
           textTitleClass="text-[#1B4845]"
           textdescClass="text-gray-700"
           bgClass="bg-white"
           
           buttonClass="bg-[#1B4845]"
+=======
+          textTitleClass="text-white"
+          textdescClass="text-white"
+          bgClass="bg-[#1B4845]"
+          height="h-[400px]"
+          buttonClass="bg-[#73D043]"
+>>>>>>> 5e83187d0f15743236ea16717b824e90f20a3c78
         />
       </div>
       <ImageText
@@ -45,17 +53,25 @@ surrounding areas.
 team will ensure your new bathroom is flawlessly brought
 to life with the minimum disruption to your home."
         buttonText="Book a Plumner"
-        imageDes="/images/bathroom/bathroom21.svg"
+        imageDes="/images/bathroom/bathroom21.png"
         order="order-2"
         marginBottom="20"
+<<<<<<< HEAD
         textTitleClass="text-[#1B4845]"
         textdescClass="text-gray-700"
         bgClass="bg-white"
        
         buttonClass="bg-[#1B4845]"
+=======
+        textTitleClass="text-white"
+        textdescClass="text-white"
+        bgClass="bg-[#1B4845]"
+        height="h-[400px]"
+        buttonClass="bg-[#73D043]"
+>>>>>>> 5e83187d0f15743236ea16717b824e90f20a3c78
       />
       <div className="px-12 mdu:px-24  ">
-        <Gallery blackText="Gallery of" colorText="Bathrooms" image1="/images/bathroom/bathroom3.svg" image2="/images/bathroom/bahtroom4.svg" image3="/images/bathroom/bathroom5.svg"/>
+        <Gallery blackText="Gallery of" colorText="Bathrooms" image1="/images/bathroom/bathroom3.png" image2="/images/bathroom/bahtroom4.png" image3="/images/bathroom/bathroom5.png"/>
         <BathroomImageText
           title="Expert tradespeople"
           desc="Full refurbishment of a bathroom isn’t just about 
@@ -97,12 +113,12 @@ And others from other customers.
           CtaText="Not sure which trade you need? Just ask us!"
           buttonText="Request Callback"
         />
-        <Heading afterOurText="LOCATIONS" />
+       
         <ImageText
           title="We have you covered!"
           description="Our team are based in Harpenden and St Albans covering all the surrounding areas including Redbourn,Wheathampstead, Kimpton, Sandridge, Markyate, Slip End, Caddington, and more."
           buttonText="Our Locations"
-          imageDes="/van1.svg"
+          imageDes="/van1.png"
           order="order-2"
         />
       </div>

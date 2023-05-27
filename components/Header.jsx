@@ -26,12 +26,12 @@ const Header = () => {
         <div className="hidden lg:block">
           <nav className="flex gap-5 font-bold text-[17px] text-[#73D043]">
             <Link href="/">HOME</Link>
-            <Link href="/plumbing">PLUMBING</Link>
-            <Link href="/electrics">ELECTRICS</Link>
-            <Link href="/heating">HEATING</Link>
             <Link href="/bathrooms">BATHROOMS</Link>
             <Link href="/kitchens">KITCHENS</Link>
-            <Link href="/refurbs">REFUBS</Link>
+            <Link href="/plumbing">PLUMBING</Link>
+            <Link href="/heating">HEATING</Link>
+            <Link href="/electrics">ELECTRICS</Link>
+            <Link href="/refurbs">REFURBS</Link>
             <Link href="/contact/#contact">CONTACT</Link>
           </nav>
         </div>
@@ -61,12 +61,12 @@ const Header = () => {
         <nav className="flex flex-col gap-4 duration-200">
           
             <Link className="hover:text-[#73D043] duration-300" href="/">HOME</Link>
-            <Link className="hover:text-[#73D043] duration-300" href="/plumbing">PLUMBING</Link>
-            <Link className="hover:text-[#73D043] duration-300" href="/electrics">ELECTRICS</Link>
-            <Link className="hover:text-[#73D043] duration-300" href="/heating">HEATING</Link>
             <Link className="hover:text-[#73D043] duration-300" href="/bathrooms">BATHROOMS</Link>
             <Link className="hover:text-[#73D043] duration-300" href="/kitchens">KITCHENS</Link>
-            <Link className="hover:text-[#73D043] duration-300" href="/refurbs">REFUBS</Link>
+            <Link className="hover:text-[#73D043] duration-300" href="/plumbing">PLUMBING</Link>
+            <Link className="hover:text-[#73D043] duration-300" href="/heating">HEATING</Link>
+            <Link className="hover:text-[#73D043] duration-300" href="/electrics">ELECTRICS</Link>
+            <Link className="hover:text-[#73D043] duration-300" href="/refurbs">REFURBS</Link>
             <Link className="hover:text-[#73D043] duration-300" href="/contact/#contact">CONTACT</Link>
       
 
