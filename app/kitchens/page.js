@@ -33,7 +33,7 @@ const page = () => {
           textTitleClass="text-[#1B4845]"
           textdescClass="text-gray-700"
           bgClass="bg-white"
-          height="h-[400px]"
+          
           buttonClass="bg-[#1B4845]"
         />
       </div>
@@ -49,7 +49,7 @@ const page = () => {
         textTitleClass="text-[#1B4845]"
         textdescClass="text-gray-700"
         bgClass="bg-white"
-        height="h-[400px]"
+
         buttonClass="bg-[#1B4845]"
       />
       <div className="px-12 mdu:px-24  ">
