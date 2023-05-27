@@ -86,7 +86,7 @@ And others from other customers.
           imageDes="/images/testimonial.svg"
           order="order-none"
           marginBottom="20"
-          height="500px"
+         
         />
         {/* Community Section */}
         <Community />

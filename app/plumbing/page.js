@@ -85,7 +85,7 @@ second to none.
           imageDes="/images/testimonial.svg"
           order="order-none"
           marginBottom="20"
-          height="h-[500px]"
+          
         />
      </div>   
 

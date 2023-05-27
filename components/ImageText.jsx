@@ -28,11 +28,11 @@ const ImageText = ({
   return (
     <div
       className={`shadow-2xl w-full mdu:${height}
-       mb-${marginBottom} sm:mb-${marginBottom} bg-black flex mdu:flex-row flex-col`}
+       mb-${marginBottom} sm:mb-${marginBottom}  flex mdu:flex-row flex-col`}
     >
       {/* Text */}
       <div
-        className={`${bgClass} w-full max-[861px]:order-2 mdu:w-[${widthText}] ${order} flex justify-center items-center`}
+        className={`${bgClass} mdu:h-[400px] w-full max-[861px]:order-2 mdu:w-[${widthText}] ${order} flex justify-center items-center`}
       >
         <div className="w-full p-5 sm:p-10 gap-4 mdu:gap-4 flex flex-col justify-start">
           <h2
@@ -70,7 +70,7 @@ const ImageText = ({
           width="0"
           height="0"
           sizes="100vw"
-          className="w-full h-full bg-cover object-cover"
+          className="w-full mdu:h-[400px] bg-cover object-cover"
           alt="plumbing"
       
         />
