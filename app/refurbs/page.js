@@ -24,7 +24,6 @@ const page = () => {
           textTitleClass="text-white"
           textdescClass="text-white"
           bgClass="bg-[#1B4845]"
-          height="h-[400px]"
           buttonClass="bg-[#73D043]"
         />
       </div>
@@ -39,7 +38,6 @@ const page = () => {
         textTitleClass="text-white"
         textdescClass="text-white"
         bgClass="bg-[#1B4845]"
-        height="h-[400px]"
         buttonClass="bg-[#73D043]"
       />
       <div className="px-12 mdu:px-24  ">
